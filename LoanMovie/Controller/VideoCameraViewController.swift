@@ -53,8 +53,6 @@ class VideoCameraViewController: UIViewController {
     private var fileCaptrueOutput: AVCaptureMovieFileOutput?
     /// 视频捕捉图层
     private var captureVideoLayer: AVCaptureVideoPreviewLayer?
-    /// 音频播放器
-    private var audioPlayer: AVAudioPlayer?
     /// 导出的视频路径
     var currentMoviePath:String = ""
     /// 是否开始朗读
@@ -81,8 +79,6 @@ class VideoCameraViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         fullView.startCellTextAnimations()
-        // 播放音频
-        audioPlayer?.play()
     }
     
     override func viewWillDisappear(_ animated: Bool) {
@@ -91,7 +87,6 @@ class VideoCameraViewController: UIViewController {
         NotificationCenter.default.removeObserver(self, name: NSNotification.Name.UIApplicationDidEnterBackground, object: UIApplication.shared)
         fullView.stopCellTextAnimations()
         captureSession.stopRunning()
-        audioPlayer?.stop()
     }
     
     /// 隐藏状态栏
@@ -136,10 +131,6 @@ class VideoCameraViewController: UIViewController {
         do {
             videoCaptureInput = try AVCaptureDeviceInput(device: videoDevices!)
             audioCaptureInput = try AVCaptureDeviceInput(device: audioDevices!)
-            // 初始化音频播放器
-            let path = Bundle.main.path(forResource: "example", ofType: "mp3")
-            let url = URL.init(fileURLWithPath: path!)
-            audioPlayer = try AVAudioPlayer.init(contentsOf: url)
         } catch  {}
         fileCaptrueOutput = AVCaptureMovieFileOutput()
         // 初始化显示图层
@@ -246,7 +237,6 @@ class VideoCameraViewController: UIViewController {
 extension VideoCameraViewController: MBProtocolDelegate {
     /// 倒计时开始时调用
     func countdownBegin() {
-        self.audioPlayer?.stop()
         fullView.stopCellTextAnimations()
         isStartRead = true
     }

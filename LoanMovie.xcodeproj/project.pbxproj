@@ -26,7 +26,6 @@
 		89B4223D1F5BC5000006FA06 /* LoanMovieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4223C1F5BC5000006FA06 /* LoanMovieUITests.swift */; };
 		89CEFE1D1F7D100500F8EA73 /* JButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CEFE1C1F7D100500F8EA73 /* JButton.swift */; };
 		89D13DD41F6BBF720030D997 /* CoustomCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 89D13DD31F6BBF720030D997 /* CoustomCollectionCell.xib */; };
-		89D13DD61F6BCCCC0030D997 /* example.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 89D13DD51F6BCCCC0030D997 /* example.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,7 +71,6 @@
 		89B4223E1F5BC5000006FA06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		89CEFE1C1F7D100500F8EA73 /* JButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JButton.swift; sourceTree = "<group>"; };
 		89D13DD31F6BBF720030D997 /* CoustomCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoustomCollectionCell.xib; sourceTree = "<group>"; };
-		89D13DD51F6BCCCC0030D997 /* example.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = example.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,7 +147,6 @@
 				89529B6D1F7F891500E28303 /* View */,
 				89529B6E1F7F8A1700E28303 /* Controller */,
 				89CEFE1B1F7D0FB500F8EA73 /* Common */,
-				89D13DD51F6BCCCC0030D997 /* example.mp3 */,
 				89B4221C1F5BC5000006FA06 /* AppDelegate.swift */,
 				89B4221E1F5BC5000006FA06 /* ViewController.swift */,
 				89B422201F5BC5000006FA06 /* Main.storyboard */,
@@ -299,7 +296,6 @@
 				89D13DD41F6BBF720030D997 /* CoustomCollectionCell.xib in Resources */,
 				896F31661F6A8E5D001CFEA2 /* MBFullView.xib in Resources */,
 				89B422271F5BC5000006FA06 /* LaunchScreen.storyboard in Resources */,
-				89D13DD61F6BCCCC0030D997 /* example.mp3 in Resources */,
 				89B422241F5BC5000006FA06 /* Assets.xcassets in Resources */,
 				892E7C8A1F8B55BA00068750 /* MBSuccessView.xib in Resources */,
 				896F316A1F6A9656001CFEA2 /* VideoHeaderView.xib in Resources */,
