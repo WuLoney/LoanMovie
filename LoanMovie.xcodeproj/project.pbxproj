@@ -15,7 +15,6 @@
 		896F31661F6A8E5D001CFEA2 /* MBFullView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 896F31651F6A8E5D001CFEA2 /* MBFullView.xib */; };
 		896F31681F6A9648001CFEA2 /* VideoHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896F31671F6A9648001CFEA2 /* VideoHeaderView.swift */; };
 		896F316A1F6A9656001CFEA2 /* VideoHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 896F31691F6A9656001CFEA2 /* VideoHeaderView.xib */; };
-		8995681D1F77DEDF009AFD09 /* AnimatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8995681C1F77DEDF009AFD09 /* AnimatorViewController.swift */; };
 		8996A2031F60189D00F1E640 /* VideoCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8996A2021F60189D00F1E640 /* VideoCameraViewController.swift */; };
 		89B4221D1F5BC5000006FA06 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4221C1F5BC5000006FA06 /* AppDelegate.swift */; };
 		89B4221F1F5BC5000006FA06 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B4221E1F5BC5000006FA06 /* ViewController.swift */; };
@@ -54,7 +53,6 @@
 		896F31651F6A8E5D001CFEA2 /* MBFullView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MBFullView.xib; sourceTree = "<group>"; };
 		896F31671F6A9648001CFEA2 /* VideoHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoHeaderView.swift; sourceTree = "<group>"; };
 		896F31691F6A9656001CFEA2 /* VideoHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoHeaderView.xib; sourceTree = "<group>"; };
-		8995681C1F77DEDF009AFD09 /* AnimatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorViewController.swift; sourceTree = "<group>"; };
 		8996A2021F60189D00F1E640 /* VideoCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCameraViewController.swift; sourceTree = "<group>"; };
 		89B422191F5BC5000006FA06 /* LoanMovie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoanMovie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B4221C1F5BC5000006FA06 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -153,7 +151,6 @@
 				89B422231F5BC5000006FA06 /* Assets.xcassets */,
 				89B422251F5BC5000006FA06 /* LaunchScreen.storyboard */,
 				89B422281F5BC5000006FA06 /* Info.plist */,
-				8995681C1F77DEDF009AFD09 /* AnimatorViewController.swift */,
 			);
 			path = LoanMovie;
 			sourceTree = "<group>";
@@ -330,7 +327,6 @@
 				89B4221F1F5BC5000006FA06 /* ViewController.swift in Sources */,
 				8996A2031F60189D00F1E640 /* VideoCameraViewController.swift in Sources */,
 				89CEFE1D1F7D100500F8EA73 /* JButton.swift in Sources */,
-				8995681D1F77DEDF009AFD09 /* AnimatorViewController.swift in Sources */,
 				896F31681F6A9648001CFEA2 /* VideoHeaderView.swift in Sources */,
 				89B4221D1F5BC5000006FA06 /* AppDelegate.swift in Sources */,
 				89529B701F7F8CF300E28303 /* MBSmallView.swift in Sources */,

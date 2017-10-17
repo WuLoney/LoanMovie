@@ -137,9 +137,9 @@ extension VideoHeaderView : UICollectionViewDelegate, UICollectionViewDataSource
         collectionViewCells.append(cell)
         switch indexPath.row {
         case 6:
-            cell.toneLabel.text = "yín"
+            cell.toneLabel.text = "cai"
         case 13:
-            cell.toneLabel.text = "dài"
+            cell.toneLabel.text = "chi"
         default:
             cell.toneLabel.text = ""
         }
